@@ -11,7 +11,7 @@ class LoginApp(QMainWindow):
         uic.loadUi("views/login.ui", self)  # Load the UI file
         self.loginBtn.clicked.connect(self.handle_login)  # Connect button click to handler
         self.registerBtn.clicked.connect(self.open_register_window)  # Connect register button to handler
-        self.setWindowTitle("Login")
+        self.setWindowTitle("Login Page")
         
     def handle_login(self):
         username = self.username.text()

@@ -12,7 +12,7 @@ class RegisterWindow(QMainWindow):
         # self.setGeometry(100, 100, 300, 200)
         uic.loadUi("views/register.ui", self)  # Load the UI file
         self.registerBtn.clicked.connect(self.handle_register)  # Connect button click to handler
-        self.setWindowTitle("Register")
+        self.setWindowTitle("Register Natin to")
         
     def handle_register(self):
         print("✅ Register button clicked")
